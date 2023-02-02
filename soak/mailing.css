@@ -1,0 +1,206 @@
+/* Fonts */
+
+@font-face {
+    src: url(fonts/SwedieCruel.ttf);
+    font-family: SwedieCruel;
+}
+
+/* BG Color */
+
+body.mailing {
+    background-color: white;
+}
+
+/* Header */
+
+header.mailing img {
+    width: 200px;
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+/* Sidebar */
+
+/* Main div */
+
+div.mailing {
+    float: left;
+    margin-top: 20px;
+}
+
+/* Nav bar */
+
+div.mailing nav {
+    margin-left: 22px;
+    width: 300px;
+    list-style-type: none;
+    font-family: 'Cousine';
+    font-size: 15px;
+    margin-top: 0px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+div.mailing nav li a:hover {
+    margin-left: 10px;
+    transition: 0.3s ease;
+}
+
+div.mailing nav li a {
+    margin-left: 0px;
+    transition: 0.3s ease;
+}
+
+/* Search */
+
+div.mailing input[type=text] {
+    font-family: 'Cousine';
+    border: none;
+    font-size: 15px;
+    padding: 2px 2px;
+}
+
+div.mailing textarea:focus, input:focus{
+    outline: none;
+}
+
+div.mailing input[type=text]::placeholder {
+    font-family: 'Cousine';
+    color: black;
+    padding: 10px 0px;
+}
+
+/* List items */
+
+div.mailing li {
+    padding: 2px;
+}
+
+/* Links */
+
+div.mailing li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Main div */
+
+div.main {
+    margin: 0 auto;
+    width: 1100px;
+    height: 500px;
+    padding: 0;
+}
+
+/* Notify */
+
+div.notify {
+    width: 680px;
+    margin-bottom: 0;
+    font-family: 'Cousine';
+    font-size: 15px;
+    margin-left: 0;
+}
+
+div.notify input[type=email] {
+    font-family: 'Cousine';
+    border: 1px solid grey;
+    border-radius: 4px;
+    height: 15px;
+    width: 300px;
+    padding: 4px;
+}
+
+div.notify input[type=submit] {
+    font-family: 'Cousine';
+    text-align: center;
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid grey;
+    height: 24px;
+}
+
+/* Policy */
+
+div.confirm {
+    margin: 0 auto;
+    font-family: 'Cousine';
+    font-size: 15px;
+    height: 40px;
+}
+
+div.policybutton {
+    float: left;
+    height: 10px;
+    padding: 13px 0px;
+    margin-top: 0;
+    margin: 0 auto;
+    margin-left: -3px;
+    margin-right: 2px;
+}
+
+div.policybutton input[type=checkbox] {
+    background-color: white;
+}
+
+div.policytext {
+    height: 10px;
+    float: left;
+    padding: 0;
+}
+
+div.confirm2 {
+    margin: 0 auto;
+    font-family: 'Cousine';
+    font-size: 15px;
+    height: 40px;
+}
+
+div.policybutton2 {
+    float: left;
+    height: 10px;
+    padding: 13px 0px;
+    margin-top: 0;
+    margin: 0 auto;
+    margin-left: -3px;
+    margin-right: 2px;
+}
+
+div.policytext2 {
+    height: 10px;
+    float: left;
+    padding: 0;
+}
+
+div.policytext a {
+    color: black;
+}
+
+/* Social icons */
+
+div.socials {
+    width: 100px;
+    height: 25px;
+    margin-top: 180px;
+    margin-left: 5px;
+}
+
+/* Instagram icon */
+
+img.instagram {
+    width: 20px; 
+    margin-left: 920px;
+    padding: 20px 20px;
+    float: left;
+    margin: 0 auto;
+}   
+
+/* Twitter icon */
+
+img.twitter {
+    width: 20px;
+    padding: 20px 0px;
+    float: left;
+}

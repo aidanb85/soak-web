@@ -1,0 +1,158 @@
+/* Fonts */
+
+@font-face {
+    src: url(fonts/SwedieCruel.ttf);
+    font-family: SwedieCruel;
+}
+
+/* BG Color */
+
+body.contact {
+    background-color: white;
+}
+
+/* Header */
+
+header.contact  img {
+    width: 200px;
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+/* Sidebar */
+
+/* Main div */
+
+div.contact  {
+    float: left;
+    margin-top: 20px;
+}
+
+/* Nav bar */
+
+div.contact nav {
+    margin-left: 22px;
+    width: 300px;
+    list-style-type: none;
+    font-family: 'Cousine';
+    font-size: 15px;
+    margin-top: 0px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+div.contact nav li a:hover {
+    margin-left: 10px;
+    transition: 0.3s ease;
+}
+
+div.contact nav li a {
+    margin-left: 0px;
+    transition: 0.3s ease;
+}
+/* Search */
+
+div.contact input[type=text] {
+    font-family: 'Cousine';
+    border: none;
+    font-size: 15px;
+    padding: 2px 2px;
+}
+
+div.contact textarea:focus, input:focus{
+    outline: none;
+}
+
+div.contact input[type=text]::placeholder {
+    font-family: 'Cousine';
+    color: black;
+    padding: 10px 0px;
+}
+
+/* List items */
+
+div.contact li {
+    padding: 2px;
+}
+
+/* Links */
+
+div.contact li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Main div */
+
+div.main {
+    margin: 0 auto;
+    width: 1100px;
+    height: 500px;
+    padding: 0;
+    font-family: 'Cousine';
+    font-size: 15px;
+}
+
+/* Contact stuff */
+
+p.bold {
+    font-weight: 700;
+    padding: 3px 0px;
+    margin-bottom: 0;
+}
+
+p.main {
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+p.instagram {
+    padding: 3px 0px;
+    margin: 0;
+}
+
+p.instagram a {
+    color: black;
+    text-decoration: none;
+}
+
+p.twitter {
+    padding: 3px 0px;
+    margin: 0;  
+}
+
+p.twitter a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Social icons */
+
+div.socials {
+    width: 100px;
+    height: 25px;
+    margin-top: 180px;
+    margin-left: 5px;
+
+}
+
+/* Instagram icon */
+
+img.instagram {
+    width: 20px; 
+    margin-left: 920px;
+    padding: 20px 20px;
+    float: left;
+    margin: 0 auto;
+}   
+
+/* Twitter icon */
+
+img.twitter {
+    width: 20px;
+    padding: 20px 0px;
+    float: left;
+}

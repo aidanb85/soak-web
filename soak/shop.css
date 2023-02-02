@@ -1,0 +1,243 @@
+/* Fonts */
+
+@font-face {
+    src: url(fonts/SwedieCruel.ttf);
+    font-family: SwedieCruel;
+}
+
+/* BG Color */
+
+body.shop {
+    background-color: white;
+}
+
+/* Header */
+
+div.shop img {
+    width: 200px;
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    margin-top: -300px;
+}
+
+/* Sidebar */
+
+/* Main div */
+
+div.shop {
+    float: left;
+    margin-top: -5px;
+    position: fixed;
+    height: 1080px;
+}
+
+/* Nav bar */
+
+div.shop nav {
+    margin-left: 22px;
+    width: 300px;
+    list-style-type: none;
+    font-family: 'Cousine';
+    font-size: 15px;
+    margin-top: 0px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+div.shop nav li a:hover {
+    margin-left: 10px;
+    transition: 0.3s ease;
+}
+
+div.shop nav li a {
+    margin-left: 0px;
+    transition: 0.3s ease;
+}
+
+/* Search */
+
+div.shop input[type=text] {
+    font-family: 'Cousine';
+    border: none;
+    font-size: 15px;
+    padding: 2px 2px;
+}
+
+div.shop textarea:focus, input:focus{
+    outline: none;
+}
+
+div.shop input[type=text]::placeholder {
+    font-family: 'Cousine';
+    color: black;
+    padding: 10px 0px;
+}
+
+/* List items */
+
+div.shop li {
+    padding: 2px;
+}
+
+/* Links */
+
+div.shop li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Main div */
+
+div.main {
+    margin: 0 auto;
+    width: 1100px;
+    height: 1000px;
+    padding: 0; 
+    font-family: 'Cousine';
+    font-size: 15px;
+    margin-top: 186px;
+    margin-left: 401px;
+
+}
+
+
+
+ul.shop-nav {
+    margin: 0 auto;
+    list-style-type: none;
+    margin-left: -20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+ul.shop-nav li a {
+    padding: 0;
+    margin: 0;
+}
+
+div.shop-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+div.shop-nav li {
+    float: left;
+}
+
+div.shop-nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div.shop-nav li a:hover {
+    text-decoration: underline;
+}
+
+div.main img {
+    width: 400px;
+    padding: 0;
+    margin: 0;
+}
+
+div.main p {
+    font-family: 'Cousine';
+    color: black;
+}
+
+div.main a {
+    text-decoration: none;
+}
+
+div.products {
+    text-align: center;
+    height: 1000px;
+    width: 1500px;
+    margin-top: 30px;
+    padding: 0;
+    margin-left: -20px;
+}
+
+div.product1 {
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    float: left;
+}
+
+div.product2 {
+    height: 500px;
+    width: 400px;   
+    text-align: center;
+    float: left;
+    padding: 0px 30px;
+}
+
+div.product3 {
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    float: left;
+    padding: 0px 30px;
+}
+
+div.product4 {
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    float: left;
+    padding-top: 30px;
+}
+
+div.product5 {
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    float: left;
+    padding: 0px 30px;
+    padding-top: 30px;
+}   
+
+div.product6 {
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    float: left;
+    padding: 0px 30px;
+    padding-top: 30px;
+}   
+
+
+
+/* Social icons */
+
+div.socials {
+    width: 100px;
+    height: 25px;
+    margin-top: 358px;
+    margin-left: 5px;
+}
+
+/* Instagram icon */
+
+div.socials img.instagram {
+    width: 20px; 
+    margin-left: 920px;
+    padding: 20px 20px;
+    float: left;
+    margin: 0 auto;
+}   
+
+/* Twitter icon */
+
+div.socials img.twitter {
+    width: 20px;
+    padding: 20px 0px;
+    float: left;
+    margin: 0;
+}

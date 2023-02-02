@@ -1,0 +1,25 @@
+finish and finalise the drop designs so i can finish shop pages - 1/4
+shop pages (can copy and paste once main shop page is finished) - 2/4
+add individual product pages - 3/4
+create preview design - 4/4
+do preview page - 4/4
+make checkout page 5/4
+
+front-end finished - 5/4
+
+- back end:
+make search feature work - 6/4
+make cart feature work - 7/4
+make products add to cart - 8/4
+make checkout page work and send results to database - 9/4
+make checkout button send me money - 10/4
+
+and finished site - 10/4
+
+start advertising straight away:
+- discord
+- snap
+- insta
+- tell all friends
+- get them to advertise it
+- get google ads to work
